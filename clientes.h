@@ -16,7 +16,7 @@ typedef struct cliente{
 
 typedef struct Memoria{
 	int congelado;
-	Cliente p;
+	Cliente* p;	//(Cliente cm ponteiro p/ n usarmos mais memória desnecessariamente)
 } Memoria;
 
 //BLOCO COM AS FUNÇÕES MAIS BÁSICAS
